@@ -1,12 +1,12 @@
 <template>
   <footer>
-    <p>Ranek</p>
+    <p>Ranek E-Commerce</p>
   </footer>
 </template>
 
 <script>
 export default {
-  name: "TheHeader",
+  name: "TheHeader"
 };
 </script>
 
