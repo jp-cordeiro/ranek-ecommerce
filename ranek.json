@@ -2,41 +2,41 @@
   "usuario": {
     "id": "1",
     "email": "admin@test.com",
-    "nome": "Admin Teste",
-    "senha": "1234",
-    "rua": "Rua A",
-    "cep": "12345678",
-    "numero": "123",
-    "estado": "CE",
-    "cidade": "Fortaleza"
+    "name": "Admin Teste",
+    "password": "1234",
+    "street": "Rua A",
+    "zip": "12345678",
+    "number": "123",
+    "state": "CE",
+    "city": "Fortaleza"
   },
   "produto": [
     {
       "id": "notebook",
-      "nome": "Notebook",
+      "name": "Notebook",
       "usuario_id": "1",
-      "preco": "4999",
-      "vendido": "false",
-      "descricao": "Esse é um novo notebook.",
-      "fotos": null
+      "price": "4999",
+      "sold": "false",
+      "description": "Esse é um novo notebook.",
+      "pictures": null
     },
     {
       "id": "smartphone",
-      "nome": "Smartphone",
+      "name": "Smartphone",
       "usuario_id": "1",
-      "preco": "1999",
-      "vendido": "false",
-      "descricao": "Esse é um novo smartphone.",
-      "fotos": null
+      "price": "1999",
+      "sold": "false",
+      "description": "Esse é um novo smartphone.",
+      "pictures": null
     },
     {
       "id": "tablet",
-      "nome": "Tablet",
+      "name": "Tablet",
       "usuario_id": "1",
-      "preco": "1399",
-      "vendido": "false",
-      "descricao": "Esse é um novo tablet.",
-      "fotos": null
+      "price": "1399",
+      "sold": "false",
+      "description": "Esse é um novo tablet.",
+      "pictures": null
     }
   ]
 }
