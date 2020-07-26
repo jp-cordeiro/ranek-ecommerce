@@ -1,6 +1,8 @@
 <template>
   <section>
     <h1>Compre ou Venda</h1>
+    <ProductsSearch/>
+    <ProductsList/>
   </section>
 </template>
 
@@ -16,3 +18,12 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+h1{
+  color: #87f;
+  margin-top: 40px;
+  font-size: 2rem;
+  text-align: center;
+}
+</style>
