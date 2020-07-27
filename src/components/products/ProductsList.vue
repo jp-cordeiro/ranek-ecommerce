@@ -14,23 +14,19 @@
 </template>
 
 <script>
-import api from '@/services/services';
+import { mapGetters, mapActions } from 'vuex';
 
 export default {
-  data() {
-    return {
-      products: null,
-    };
+  computed: {
+    ...mapGetters({
+      products: 'getProductsList',
+    }),
   },
   methods: {
-    getProducts() {
-      api.get('/produto').then(({ data }) => {
-        this.products = data;
-      });
-    },
+    ...mapActions(['loadProducts']),
   },
-  created() {
-    this.getProducts();
+  async created() {
+    await this.loadProducts();
   },
 };
 </script>
